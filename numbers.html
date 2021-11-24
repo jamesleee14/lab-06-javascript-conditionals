@@ -3,7 +3,15 @@
     <body>
         <script>
            let usernum=prompt("Please enter a number: ");
-           
+           let thou=1000;
+           let hund=100;
+           let ten=10;
+           let one=1;
+           if (usernum%1000===1) {
+               console.log(thou + " thousands");
+           } else if (usernum/hund===1) {
+               console.log(hund + " hundreds");
+           }
         </script>
     </body>
-</html>R
+</html>
